@@ -1,0 +1,1038 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/30/2026 2:02:17 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="MSI"
+  DTS:CreatorName="MSI\Aziz"
+  DTS:DTSID="{B6718031-0716-4A6A-8C63-57660F1D3929}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="22"
+  DTS:VersionGUID="{C2E259D0-1D47-4E6E-82F8-820203A70349}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[MSI\SESAME_V2.DWH_Retail]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{D8FC19ED-3329-41ED-8920-3F2CDA16270D}"
+      DTS:ObjectName="MSI\SESAME_V2.DWH_Retail">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=MSI\SESAME_V2;Initial Catalog=DWH_Retail;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{D8FC19ED-3329-41ED-8920-3F2CDA16270D}MSI\SESAME_V2.DWH_Retail;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ProductCm]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{F1A0DC30-E6D8-4F5D-B91B-4A27A90C83B1}"
+      DTS:ObjectName="ProductCm">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Aziz\Downloads\projets_bi_4ing_ds_2026\projets_bi_4ing_ds_2026\01_Retail_Ecommerce\products.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{1BFF70A6-6AB0-49CC-998F-D357E838EC8F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductName"
+              DTS:DTSID="{3FBD59B9-A0A5-4192-800E-5F14C29651FF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CategoryID"
+              DTS:DTSID="{D697648B-FDCF-4815-910D-9A56CFCFCDFE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BrandID"
+              DTS:DTSID="{A5D77C6A-8B51-4AF0-9F69-FB5F41E68069}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SupplierID"
+              DTS:DTSID="{CA6841A0-62A8-4043-99CE-8D7653E9ABE9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitCost"
+              DTS:DTSID="{BD248905-9707-4A77-9BD9-AA025BD1BF77}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitPrice"
+              DTS:DTSID="{8B1A6093-16F8-4786-AD82-27166992CA14}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IsActive"
+              DTS:DTSID="{511F7427-4FD9-409A-A9F5-99954746EB48}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Dim Load Product"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{ED2EDF7D-1927-4A2E-92CB-BB97026FE173}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Dim Load Product"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Dim Load Product\Conversion de données"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Conversion de données;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Conversion de données"
+              name="Conversion de données"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données]"
+                  name="Entrée de conversion de données">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[ProductID]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ProductID"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[ProductName]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ProductName"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductName]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[CategoryID]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CategoryID"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[CategoryID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[BrandID]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="BrandID"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[BrandID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[SupplierID]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SupplierID"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[UnitCost]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="UnitCost"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitCost]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[UnitPrice]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="UnitPrice"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitPrice]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données].Columns[IsActive]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="IsActive"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[IsActive]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données]"
+                  exclusionGroup="1"
+                  name="Sortie de conversion de données"
+                  synchronousInputId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of ProductID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of ProductID]"
+                      name="Copy of ProductID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of ProductName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="150"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of ProductName]"
+                      name="Copy of ProductName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductName]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of CategoryID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of CategoryID]"
+                      name="Copy of CategoryID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[CategoryID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of BrandID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of BrandID]"
+                      name="Copy of BrandID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[BrandID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of SupplierID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of SupplierID]"
+                      name="Copy of SupplierID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of UnitCost]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of UnitCost]"
+                      name="Copy of UnitCost"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitCost]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of UnitPrice]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of UnitPrice]"
+                      name="Copy of UnitPrice"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitPrice]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of IsActive]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="10"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of IsActive]"
+                      name="Copy of IsActive"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Spécifie la colonne d'entrée utilisée comme source de données pour la conversion."
+                          name="SourceInputColumnLineageID">#{Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[IsActive]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie d'erreur de conversion de données]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de conversion de données"
+                  synchronousInputId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Dim Load Product\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie d'erreur de conversion de données].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Dim Load Product\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[DimProduct]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Dim Load Product\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[MSI\SESAME_V2.DWH_Retail]"
+                  connectionManagerRefId="Package.ConnectionManagers[MSI\SESAME_V2.DWH_Retail]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of ProductID]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of ProductID"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of ProductID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="150"
+                      cachedName="Copy of ProductName"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of ProductName]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of CategoryID]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of CategoryID"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryID]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of CategoryID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of BrandID]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of BrandID"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[BrandID]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of BrandID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of SupplierID]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of SupplierID"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierID]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of SupplierID]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of UnitCost]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of UnitCost"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitCost]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of UnitCost]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of UnitPrice]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of UnitPrice"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitPrice]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of UnitPrice]" />
+                    <inputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Copy of IsActive]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="Copy of IsActive"
+                      externalMetadataColumnId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[IsActive]"
+                      lineageId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données].Columns[Copy of IsActive]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductKey]"
+                      dataType="i4"
+                      name="ProductKey" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductID]"
+                      dataType="wstr"
+                      length="20"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="150"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryID]"
+                      dataType="wstr"
+                      length="20"
+                      name="CategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[BrandID]"
+                      dataType="wstr"
+                      length="20"
+                      name="BrandID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierID]"
+                      dataType="wstr"
+                      length="20"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitCost]"
+                      dataType="wstr"
+                      length="50"
+                      name="UnitCost" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitPrice]"
+                      dataType="wstr"
+                      length="50"
+                      name="UnitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[IsActive]"
+                      dataType="wstr"
+                      length="10"
+                      name="IsActive" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Dim Load Product\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Dim Load Product\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Dim Load Product\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Dim Load Product\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Dim Load Product\Source du fichier plat"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Source du fichier plat"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Dim Load Product\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ProductCm]"
+                  connectionManagerRefId="Package.ConnectionManagers[ProductCm]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[ProductID]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductName]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[ProductName]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductName]"
+                      name="ProductName"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[CategoryID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[CategoryID]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[CategoryID]"
+                      name="CategoryID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[BrandID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[BrandID]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[BrandID]"
+                      name="BrandID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[SupplierID]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]"
+                      name="SupplierID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitCost]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitCost]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitCost]"
+                      name="UnitCost"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitPrice]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitPrice]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitPrice]"
+                      name="UnitPrice"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[IsActive]"
+                      codePage="65001"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[IsActive]"
+                      length="50"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[IsActive]"
+                      name="IsActive"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[ProductID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[ProductName]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[CategoryID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="CategoryID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[BrandID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="BrandID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[SupplierID]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitCost]"
+                      dataType="wstr"
+                      length="50"
+                      name="UnitCost" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitPrice]"
+                      dataType="wstr"
+                      length="50"
+                      name="UnitPrice" />
+                    <externalMetadataColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[IsActive]"
+                      codePage="65001"
+                      dataType="str"
+                      length="50"
+                      name="IsActive" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Dim Load Product.Paths[Sortie de conversion de données]"
+              endId="Package\Dim Load Product\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de conversion de données"
+              startId="Package\Dim Load Product\Conversion de données.Outputs[Sortie de conversion de données]" />
+            <path
+              refId="Package\Dim Load Product.Paths[Sortie de source de fichier plat]"
+              endId="Package\Dim Load Product\Conversion de données.Inputs[Entrée de conversion de données]"
+              name="Sortie de source de fichier plat"
+              startId="Package\Dim Load Product\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Dim Load Product"
+          TopLeft="227,86" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Dim Load Product">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Dim Load Product\Source du fichier plat"
+          TopLeft="274,80" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Dim Load Product\Destination OLE DB"
+          TopLeft="419,353" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\Dim Load Product\Conversion de données"
+          TopLeft="375,181" />
+        <EdgeLayout
+          Id="Package\Dim Load Product.Paths[Sortie de conversion de données]"
+          TopLeft="472.5,223">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="35,130"
+              Start="0,0"
+              End="35,122.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,61" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,61"
+                    Point2="0,65"
+                    Point3="4,65" />
+                  <mssgle:LineSegment
+                    End="31,65" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31,65"
+                    Point2="35,65"
+                    Point3="35,69" />
+                  <mssgle:LineSegment
+                    End="35,122.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Dim Load Product.Paths[Sortie de source de fichier plat]"
+          TopLeft="365,122">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="107.5,59"
+              Start="0,0"
+              End="107.5,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.5"
+                    Point2="0,29.5"
+                    Point3="4,29.5" />
+                  <mssgle:LineSegment
+                    End="103.5,29.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="103.5,29.5"
+                    Point2="107.5,29.5"
+                    Point3="107.5,33.5" />
+                  <mssgle:LineSegment
+                    End="107.5,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Dim Load Product\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

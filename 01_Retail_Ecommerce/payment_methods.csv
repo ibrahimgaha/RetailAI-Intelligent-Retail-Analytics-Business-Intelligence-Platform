@@ -1,0 +1,6 @@
+﻿PaymentMethodID;PaymentMethod
+PM1;Cash
+PM2;Card
+PM3;Bank Transfer
+PM4;Wallet
+PM5;COD

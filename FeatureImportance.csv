@@ -1,0 +1,17 @@
+Feature,Importance
+TotalQuantity,0.3307678
+NumberOfProducts,0.29117918
+AvgDiscount,0.03308999
+ChannelName_Web,0.028912218
+NumberOfCategories,0.028768156
+ChannelName_Store,0.028607428
+PaymentMethod_Card,0.027665528
+ChannelName_Marketplace,0.027616458
+PaymentMethod_COD,0.027053466
+PaymentMethod_Wallet,0.026735676
+MonthNumber,0.026498651
+ChannelName_Mobile App,0.025687765
+PaymentMethod_Cash,0.025334729
+Gender_Unknown,0.025245894
+YearNumber,0.024609398
+Gender_Male,0.022227636

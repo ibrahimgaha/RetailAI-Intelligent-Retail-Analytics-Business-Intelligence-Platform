@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/30/2026 2:02:35 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="MSI"
+  DTS:CreatorName="MSI\Aziz"
+  DTS:DTSID="{83599D80-3D87-4808-9522-FBA35B86F5EF}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{27960FD6-439F-4D1E-A88A-B3379C697344}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[MSI\SESAME_V2.DWH_Retail]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8E63E12E-CFC2-4256-B8BC-929A38B0CD3E}"
+      DTS:ObjectName="MSI\SESAME_V2.DWH_Retail">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=MSI\SESAME_V2;Initial Catalog=DWH_Retail;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{8E63E12E-CFC2-4256-B8BC-929A38B0CD3E}MSI\SESAME_V2.DWH_Retail;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Tâche d'exécution de requêtes SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tâche d'exécution de requêtes SQL"
+      DTS:DTSID="{8536D910-AEA5-48A4-BF38-933C897F9523}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tâche d'exécution de requêtes SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{8E63E12E-CFC2-4256-B8BC-929A38B0CD3E}"
+          SQLTask:SqlStatementSource="DECLARE @StartDate DATE = '2020-01-01';&#xA;DECLARE @EndDate DATE = '2030-12-31';&#xA;&#xA;WHILE @StartDate &lt;= @EndDate&#xA;BEGIN&#xA;    INSERT INTO DimDate&#xA;    (&#xA;        DateKey,&#xA;        FullDate,&#xA;        DayNumber,&#xA;        DayName,&#xA;        MonthNumber,&#xA;        MonthName,&#xA;        QuarterNumber,&#xA;        YearNumber,&#xA;        WeekNumber,&#xA;        IsWeekend&#xA;    )&#xA;    VALUES&#xA;    (&#xA;        CONVERT(INT, FORMAT(@StartDate,'yyyyMMdd')),&#xA;        @StartDate,&#xA;        DAY(@StartDate),&#xA;        DATENAME(WEEKDAY,@StartDate),&#xA;        MONTH(@StartDate),&#xA;        DATENAME(MONTH,@StartDate),&#xA;        DATEPART(QUARTER,@StartDate),&#xA;        YEAR(@StartDate),&#xA;        DATEPART(WEEK,@StartDate),&#xA;        CASE&#xA;            WHEN DATENAME(WEEKDAY,@StartDate) IN ('Saturday','Sunday')&#xA;            THEN 1&#xA;            ELSE 0&#xA;        END&#xA;    );&#xA;&#xA;    SET @StartDate = DATEADD(DAY,1,@StartDate);&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="254,42"
+          Id="Package\Tâche d'exécution de requêtes SQL"
+          TopLeft="292,97" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

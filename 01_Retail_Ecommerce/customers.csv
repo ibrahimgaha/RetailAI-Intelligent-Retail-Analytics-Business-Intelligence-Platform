@@ -1,0 +1,351 @@
+﻿CustomerID;CustomerName;Gender;BirthDate_FR;Segment;CityID;SignupDate_US
+C1000;Auguste Michaud;M;30/03/1962;Premium;CITY12;02/24/2019
+C1001;Philippine Barre-Blondel;;19/10/1967; Retail;CITY04;08/10/2020
+C1002;Bertrand Leblanc;;19/05/1962;Student;CITY10;02/13/2021
+C1003;Colette Besnard;M;28/04/1974;Corporate;CITY04;10/10/2021
+C1004;Aimée Peltier;M;27/04/1968;Corporate;CITY10;12/19/2020
+C1005;Patrick Becker de la Masse;M;20/03/2001;Student ;CITY05;12/08/2024
+C1006;Bernadette Laporte;Female;01/04/1977;Retail;CITY05;11/23/2018
+C1007;Sébastien Valette;F;22/01/1969;Student;CITY06;10/29/2019
+C1008;Roland-Augustin Charrier;Female;15/11/1991;Corporate;CITY11;10/20/2018
+C1009;Agathe Louis de la Texier;;09/05/1975;Premium;CITY07;01/10/2021
+C1010;Joséphine Le Maury;;14/09/1979;Retail;CITY01;07/16/2021
+C1011;Lucas Delorme;Male;;Corporate;CITY08;06/09/2022
+C1012;Marguerite Lucas;Male;25/10/1972;Premium;CITY09;12/12/2020
+C1013;Cécile Dufour;;08/06/1998;Student;CITY03;09/19/2023
+C1014;Agnès Colin;Male;26/02/1968;Retail;CITY03;09/26/2022
+C1015;Audrey-Simone Chauvin;;12/09/1965;Student;CITY09;02/17/2018
+C1016;Pénélope-Clémence Fernandes;M;09/12/1983;Corporate;CITY07;10/10/2019
+C1017;Xavier Couturier-Daniel;Male;16/04/1960;Corporate;CITY03;09/11/2023
+C1018;Anastasie Toussaint du Julien;M;10/10/1986;Premium;CITY03;01/19/2024
+C1019;Camille Thibault;;19/01/1960; Student;CITY06;06/13/2021
+C1020;Julien de Vallée;F;13/03/1965;RETAIL;CITY08;10/11/2018
+C1021;Agnès Pichon;;13/04/1971;Student;CITY03;12/21/2020
+C1022;Margot Fontaine;;17/12/1997;Premium;CITY07;03/10/2022
+C1023;Sophie Rousset;Male;03/07/2000;Premium ;CITY01;08/06/2024
+C1024;Édouard Dufour;;23/08/1980;Retail ;CITY11;08/30/2018
+C1025;Luce-Hélène Georges;F;17/01/1966;Corporate ;CITY04;02/14/2021
+C1026;Jeannine Morin;Male;22/03/1979;Student;CITY08;07/26/2022
+C1027;Émile Nguyen;F;17/06/1968;Student;CITY07;03/28/2023
+C1028;Adrien Alexandre;M;;Corporate;CITY02;10/15/2020
+C1029;Catherine Rivière;F;23/01/1977;Premium;CITY05;03/10/2023
+C1030;Agnès Peron;F;06/10/1966;Retail ;CITY09;03/02/2018
+C1031;Luc Masse Le Bruneau;M;16/03/1981;Student;CITY07;08/29/2018
+C1032;Camille Sauvage du Loiseau;F;;Student;CITY08;03/14/2021
+C1033;Adèle Barthelemy;Male;30/08/2003;Corporate;CITY01;06/30/2024
+C1034;Marine de la Rocher;;20/06/1965;Retail ;CITY08;08/22/2023
+C1035;Christophe Thomas du Coulon;;;Retail;CITY02;09/03/2024
+C1036;Gilbert Pelletier;M;06/02/1981;Premium;CITY01;12/11/2024
+C1037;Thomas Chevallier;M;11/08/1997;Corporate;CITY04;07/10/2021
+C1038;Michelle Martinez;F;30/10/1983;Corporate;CITY02;02/08/2018
+C1039;Adélaïde Blanc;Male;;Premium;CITY03;11/30/2021
+C1040;Sabine Gay;M;30/11/1981;Premium;CITY09;05/24/2021
+C1041;Richard Neveu;;13/09/1960;Corporate;CITY02;07/05/2019
+C1042;Josette Baron-Lecoq;Female;10/05/1970;Premium;CITY10;05/12/2020
+C1043;Denis Tessier;Female;07/04/1978;Corporate;CITY05;07/28/2018
+C1044;Suzanne Riou-Boulay;M;31/12/1997; Retail;CITY03;12/08/2020
+C1045;Alice Bodin;F;22/08/1999;Student;CITY02;11/05/2018
+C1046;Michelle Buisson-Morin;F;26/03/1963;Premium;CITY01;06/16/2021
+C1047;Roger David;Female;31/07/1963;Premium;CITY11;02/26/2019
+C1048;Renée Lamy;Female;16/06/1996;Premium;CITY04;10/28/2019
+C1049;Rémy-Aimé Normand;F;;Corporate;CITY07;10/13/2020
+C1050;François Rolland;Female;13/04/1974;Retail;CITY01;04/12/2023
+C1051;Roger Jacquot-Neveu;F;26/11/1977;Student;CITY04;07/02/2020
+C1052;Anouk Bertrand;M;29/04/1977;Corporate;CITY05;12/09/2021
+C1053;Anne de la Collet;;09/11/1995;Corporate;CITY02;12/05/2020
+C1054;Madeleine Ruiz-Techer;F;;Student;CITY06;11/23/2022
+C1055;Susanne Humbert du Lemonnier;;18/11/2005;Premium;CITY12;11/22/2022
+C1056;Thérèse Valentin;M;04/09/1977;Retail;CITY06;12/27/2024
+C1057;Antoinette Diaz;Female;07/03/1971;Corporate;CITY11;07/31/2022
+C1058;Michelle de Charles;Female;06/02/1996;Premium;CITY11;04/02/2022
+C1059;Aimé Legros;F;31/12/1986;Retail;CITY04;10/27/2022
+C1060;Daniel de la Aubry;;28/11/1988;Student;CITY09;04/23/2023
+C1061;Roger-Michel Cordier;F;10/08/1967;CORPORATE;CITY04;06/25/2021
+C1062;Alix Allain;F;12/11/1977;Retail;CITY08;11/08/2024
+C1063;Aurore Courtois;M;09/11/2000;Premium;CITY07;07/18/2023
+C1064;Élise Bodin;Male;20/11/1981;Retail;CITY02;10/08/2022
+C1065;Marthe-Margot Chevalier;F;12/10/1975;Student ;CITY04;05/13/2019
+C1066;Henriette-Virginie Sauvage;Male;18/12/1971;Corporate;CITY08;11/14/2024
+C1067;Alix Bodin;;14/04/1998;Student;CITY12;04/29/2023
+C1068;Augustin Alexandre;Male;03/04/1983;Corporate;CITY09;06/08/2023
+C1069;Pierre Moreau;F;20/08/1984;Corporate;CITY06;08/02/2021
+C1070;Isabelle Chevalier;;25/03/1967;Premium;CITY03;05/26/2020
+C1071;Lucy Le Dupré;M;21/03/1997;Student;CITY04;09/17/2022
+C1072;Martin Rivière;Male;02/10/1961;Student;CITY06;05/08/2021
+C1073;Philippe Weiss;Male;04/08/1997;Premium;CITY05;11/21/2022
+C1074;Anastasie Leclerc;Male;09/08/1962;Student;CITY08;06/07/2019
+C1075;Éric Renaud de la Gimenez;;02/06/1962;RETAIL;CITY07;07/10/2019
+C1076;Vincent-Étienne Carre;Male;;Student;CITY08;08/31/2021
+C1077;Jacques Le Bousquet;Female;05/01/1994;Student;CITY02;04/11/2023
+C1078;Victoire-Valérie Payet;M;02/09/1964;Corporate;CITY02;06/14/2018
+C1079;Laurent Turpin;M;08/03/1982;Retail;CITY04;06/02/2019
+C1080;Victor Marchand;Male;06/04/1970;Premium;CITY05;02/19/2022
+C1081;Lucas Evrard-Brun;F;11/04/1970;Premium;CITY02;06/28/2024
+C1082;Gérard Delannoy de Couturier;M;27/12/1987;Student;CITY12;03/23/2020
+C1083;Margaud Andre;M;14/10/1981;Corporate;CITY10;05/11/2019
+C1084;Claude Grondin;;07/09/1963;Student;CITY02;09/04/2023
+C1085;Alfred-Nicolas Martin;Female;18/02/1961;Student;CITY06;02/27/2023
+C1086;Honoré Morin;F;26/01/1999;Corporate;CITY09;06/04/2023
+C1087;Édouard Le Joseph;Male;28/01/1999;Corporate;CITY04;12/21/2018
+C1088;Henri Legrand;Female;10/06/2000;Student;CITY11;04/02/2022
+C1089;Denis Deschamps;Female;29/07/1962;Corporate;CITY04;12/24/2021
+C1090;Gilbert Mahe-Parent;Female;14/07/1990;Corporate;CITY09;02/22/2020
+C1091;Aimé Techer;M;26/08/1981;Student;CITY04;05/05/2023
+C1092;Laurence Maréchal;Male;16/03/2000;Retail;CITY07;09/23/2020
+C1093;Mathilde Lefebvre;Female;08/02/1993;Corporate;CITY12;03/04/2024
+C1094;Monique Albert;Female;25/07/1991;Corporate;CITY04;05/10/2019
+C1095;Jacques-David Noël;F;22/04/1988;Premium;CITY12;06/07/2023
+C1096;Nath Benoit;Female;22/05/1985;Premium;CITY06;01/05/2020
+C1097;Amélie Benoit;Female;08/04/1961;Premium;CITY01;03/16/2024
+C1098;Emmanuelle Huet;Female;30/04/1971;Student;CITY01;06/09/2024
+C1099;Marcel Delaunay;Female;10/02/2002;Corporate;CITY01;10/31/2020
+C1100;Louise-Corinne Pelletier;Male;27/03/1970;Student;CITY10;08/08/2018
+C1101;Thomas Blanchet;F;20/05/1973;CORPORATE;CITY04;05/01/2019
+C1102;Christophe de la Mendès;;03/05/1997;Premium;CITY07;01/20/2023
+C1103;Élisabeth Dupuy de la Masse;Male;04/09/1986;Student;CITY10;09/04/2018
+C1104;Valentine du Teixeira;;25/11/1968;Premium;CITY05;11/29/2018
+C1105;Daniel Gonzalez;F;08/07/1981;Retail;CITY07;01/20/2023
+C1106;Océane Pages de Leroy;;27/02/2002;Premium;CITY05;02/03/2023
+C1107;Étienne Lebrun de Blanc;M;09/12/1980;Premium;CITY09;07/09/2020
+C1108;Simone Roy;F;31/10/1983;Retail ;CITY05;09/03/2024
+C1109;Alain du Pichon;;22/11/1985;Student;CITY12;07/07/2022
+C1110;Olivier Pages;Female;24/11/2004;STUDENT;CITY01;11/05/2022
+C1111;Émile Roy;Female;;Premium;CITY10;08/01/2024
+C1112;Thomas Denis-Ledoux;M;06/03/1984;Premium;CITY11;12/17/2022
+C1113;Noël Bigot;Female;13/04/1976;Student;CITY08;01/09/2019
+C1114;Marthe Gimenez;Male;20/03/1991;Corporate;CITY03;09/12/2021
+C1115;Brigitte Turpin;Male;13/06/2004;Student;CITY09;05/31/2018
+C1116;Audrey Barre;Male;25/11/1967;Corporate;CITY07;10/09/2023
+C1117;Denis Klein-Chevallier;M;12/06/2001;Premium;CITY10;08/04/2023
+C1118;Christine-Jeanne Gonzalez;Male;18/08/1964;Premium;CITY08;06/09/2023
+C1119;Suzanne Maillot;M;03/08/1962;Premium;CITY05;03/06/2024
+C1120;Anne de la Menard;M;08/08/1996;Retail;CITY02;09/23/2019
+C1121;Théophile Grégoire;Male;08/03/1986;Corporate;CITY08;04/19/2023
+C1122;Corinne Mallet;F;23/12/2000;Student;CITY10;09/13/2023
+C1123;Patrick Dupuy;F;06/04/1966;Student;CITY09;12/30/2020
+C1124;André Faivre-Guilbert;M;17/05/1985;Student;CITY08;01/16/2024
+C1125;Louis Martineau;Male;18/12/1990;Student;CITY06;02/12/2020
+C1126;Anne Rousseau;F;11/05/1994;Student ;CITY12;04/22/2023
+C1127;Valérie Lamy;Male;21/08/1994;Premium;CITY01;06/02/2019
+C1128;Raymond Pereira;;13/10/1989;STUDENT;CITY08;03/04/2018
+C1129;Bernard Turpin-Robert;F;12/10/1996;Premium ;CITY05;10/18/2021
+C1130;Geneviève de Brunet;;29/08/1995;Corporate;CITY09;04/06/2022
+C1131;Dominique Leconte;Female;11/10/2003;Retail;CITY04;03/23/2021
+C1132;Robert Guillou;F;09/02/1968;Retail;CITY12;02/16/2019
+C1133;Édith Guillot;Male;04/12/1974;Retail ;CITY01;04/16/2021
+C1134;Amélie Guillou;Female;17/08/1993;Premium;CITY10;01/08/2020
+C1135;André Rousseau;F;;Student;CITY04;08/01/2023
+C1136;Maryse de la Léger;;02/11/1972;Corporate;CITY11;02/08/2018
+C1137;Émile Faure;Male;21/10/1985;Premium ;CITY06;08/03/2024
+C1138;Jacqueline Adam;Female;24/01/1998;Student;CITY04;04/25/2022
+C1139;Thibaut Lopez;Male;26/07/1969;Corporate;CITY12;04/24/2021
+C1140;Emmanuelle Aubry;M;05/07/1995;Retail;CITY12;07/28/2023
+C1141;Frédéric Leroux;Female;23/08/1980;Corporate;CITY04;12/18/2024
+C1142;Martin Weber Le Mahe;Female;08/04/1972;Retail;CITY08;05/17/2018
+C1143;Claude Leconte;;24/09/1992;Retail;CITY06;08/29/2022
+C1144;Andrée Rousset;F;05/01/1978;Corporate;CITY05;11/05/2019
+C1145;Sophie Rousset;Female;25/03/2003;Corporate;CITY06;04/17/2019
+C1146;Bertrand David-Barbier;Male;03/10/1966;Premium;CITY12;06/16/2022
+C1147;Jacqueline Lebon;;24/10/1992; Student;CITY09;05/22/2019
+C1148;Benjamin Bouchet de Bernier;Male;24/01/1993;Corporate;CITY11;03/02/2022
+C1149;Franck Blanchard-Aubry;M;22/12/1980;Corporate;CITY04;09/16/2018
+C1150;Thibault-Raymond Bazin;Male;10/02/1987;Retail;CITY01;05/31/2021
+C1151;Alexandre Becker-Hoareau;Male;02/06/1970;Premium;CITY06;01/22/2024
+C1152;Augustin de Fouquet;Male;11/11/1973;Retail;CITY10;07/30/2022
+C1153;Marcelle Nicolas-Bousquet;Female;08/12/1962;Premium;CITY04;01/25/2022
+C1154;Thibaut Gérard;M;14/12/1992;Corporate ;CITY05;02/17/2020
+C1155;Arthur Hamon;M;17/10/2000;Premium;CITY10;03/29/2018
+C1156;Jules Vasseur;M;02/12/1989;Premium;CITY04;10/09/2018
+C1157;Édouard du Munoz;;02/08/1978;Premium;CITY03;09/07/2024
+C1158;Laure Allard;M;15/11/1984;Premium;CITY09;10/23/2020
+C1159;Monique Lévêque;F;11/11/1969;Retail;CITY06;09/01/2020
+C1160;Gabriel Couturier;;;Corporate ;CITY12;09/21/2022
+C1161;Émile Seguin;;13/03/1970;Student;CITY06;10/04/2023
+C1162;Suzanne Nicolas;;13/10/1969;Premium;CITY01;11/06/2023
+C1163;Rémy Gros-Delmas;Female;03/02/2001;Retail ;CITY08;07/04/2022
+C1164;Théodore Bouvet;Male;07/09/1969;Student ;CITY02;08/12/2021
+C1165;Gérard Klein;;;Corporate;CITY10;02/25/2024
+C1166;Pauline-Corinne Lenoir;Female;04/03/1994;Corporate;CITY10;10/29/2022
+C1167;Suzanne Fontaine;M;07/04/1970;Premium;CITY04;08/22/2022
+C1168;Margaret Carre-Joseph;Female;07/09/2000;Retail;CITY06;11/10/2020
+C1169;Denis Le Blanc;Female;10/09/1973;Student ;CITY02;01/17/2019
+C1170;Christophe Vallée-Hamon;Male;30/08/1968;Corporate;CITY09;09/03/2018
+C1171;Claudine-Adèle Lucas;;28/07/1989;Student;CITY11;09/29/2022
+C1172;Agathe François;M;21/10/1985;Corporate;CITY09;05/21/2020
+C1173;Simone Blot;F;05/04/2003;Retail;CITY09;02/14/2022
+C1174;Valentine Dumont;M;28/12/1984;Student;CITY10;11/18/2024
+C1175;Arthur Leroy du Guichard;;10/05/1962; Corporate;CITY05;06/19/2021
+C1176;Lucas du Bourgeois;Female;;Premium;CITY07;10/13/2018
+C1177;Anaïs Lopez;F;01/10/1962;Premium;CITY08;10/28/2021
+C1178;Élodie Jacquot;F;13/03/1993;Corporate;CITY10;09/08/2024
+C1179;Pauline Costa;M;19/09/1964;Retail;CITY05;12/20/2022
+C1180;Guillaume Martin;Male;28/07/2003;Student;CITY09;04/12/2019
+C1181;Noël Pruvost;Female;27/07/1998;Student;CITY05;07/06/2018
+C1182;Geneviève Torres;F;17/06/1995; Retail;CITY05;05/15/2020
+C1183;Monique Allard;F;03/12/1982; Retail;CITY12;10/30/2022
+C1184;Martine Reynaud;F;04/08/1971;Premium;CITY11;12/21/2021
+C1185;Emmanuelle-Odette Carlier;M;16/08/1995;Retail;CITY08;11/15/2018
+C1186;Denise Duhamel;Female;06/07/1998;Student;CITY07;03/27/2018
+C1187;Honoré Launay;Female;02/06/1975;Student;CITY06;12/27/2018
+C1188;Robert Bernard;Male;30/06/1969;Student;CITY07;06/24/2021
+C1189;Caroline Moulin;Female;17/11/1979;Premium ;CITY11;04/13/2019
+C1190;Emmanuel du Gimenez;;01/10/2005;Corporate;CITY11;08/28/2019
+C1191;Jean Lopes;F;22/03/1969;Premium;CITY03;11/05/2018
+C1192;Étienne Humbert Le Jacquot;F;30/04/2004;Student;CITY10;08/16/2021
+C1193;Manon Valette;Female;17/07/1973;Student;CITY05;01/30/2021
+C1194;Dorothée Denis;;14/01/1965;Retail;CITY08;06/04/2018
+C1195;Margot Georges;M;29/01/1993;Retail;CITY02;11/24/2024
+C1196;Alexandre-Édouard Bousquet;;28/06/2005;Retail;CITY10;02/11/2020
+C1197;Guy Laroche;Female;02/09/2002;Retail;CITY06;12/12/2018
+C1198;Xavier Hubert;;;Student;CITY09;11/12/2023
+C1199;Simone Neveu;;29/03/1974;Corporate;CITY06;09/14/2024
+C1200;Adrienne Joly-Hamel;M;;Retail;CITY07;03/09/2021
+C1201;Marcel Techer de Marin;Female;28/06/1973;Premium;CITY05;05/25/2022
+C1202;Margot Bourdon;F;08/08/1967;Student;CITY06;06/08/2019
+C1203;Marie Evrard;;20/05/1968;Student;CITY01;01/25/2022
+C1204;Auguste Delattre;Female;03/03/1976;Corporate;CITY08;02/26/2020
+C1205;Isaac Pierre;F;04/05/1972;Corporate;CITY02;09/11/2023
+C1206;Joseph Marion;;21/05/1963;Premium;CITY03;10/27/2019
+C1207;Noël Techer;F;07/11/1974;Retail;CITY11;08/30/2020
+C1208;Auguste Rey;Male;24/07/1985;Student;CITY04;06/21/2021
+C1209;Édouard-Alphonse Launay;Male;28/05/1977;Student;CITY05;04/14/2022
+C1210;Auguste Clément;;23/07/1997;Premium;CITY03;10/21/2020
+C1211;Édouard Lenoir;M;11/02/2003;Retail;CITY09;05/26/2019
+C1212;Théophile Perrot;Female;11/07/1967;Corporate;CITY09;08/27/2019
+C1213;Roger de la Lebreton;Male;24/03/1968;Premium;CITY06;04/20/2018
+C1214;Marc Delorme;Male;11/10/1964;Corporate;CITY02;03/16/2022
+C1215;Patricia Besnard-Guibert;F;12/07/1962;Retail;CITY11;10/05/2021
+C1216;Alix Delorme;F;;Student;CITY03;04/06/2023
+C1217;Anne Blanchard;Male;21/06/1960;Retail;CITY03;02/26/2024
+C1218;Aurore Le Lefebvre;;21/12/1997;Corporate;CITY02;07/15/2018
+C1219;Daniel Dupuy;F;30/08/1997;Student ;CITY08;09/10/2024
+C1220;Sébastien Hamel;;22/06/1961;Premium;CITY05;10/25/2022
+C1221;Pénélope Thierry;M;27/08/1991;Student;CITY11;12/17/2018
+C1222;Zacharie Martel;;;Retail;CITY08;06/28/2018
+C1223;Marthe Mahe;Male;28/06/1993;Retail;CITY02;11/13/2021
+C1224;Gabriel Moreau;F;19/04/1969;Corporate;CITY06;02/15/2024
+C1225;Philippine Allard;Female;16/09/1975;Student;CITY08;01/17/2020
+C1226;Diane Royer-Peron;F;29/08/1965; Student;CITY04;06/29/2018
+C1227;Théophile Allard-Guillet;F;05/10/1963;Corporate;CITY09;04/24/2023
+C1228;Bertrand-René Delorme;Female;14/04/1963;Premium;CITY01;09/21/2021
+C1229;Timothée Lelièvre de Mendès;Female;02/03/1971;Student;CITY12;12/07/2022
+C1230;Luc-Jacques Chauvin;Male;01/06/1990;Student;CITY06;10/28/2023
+C1231;Marguerite Barre;Female;31/05/1967;Retail;CITY03;02/13/2024
+C1232;Catherine Noël;Female;25/10/1988;Corporate;CITY05;01/01/2023
+C1233;Juliette Bruneau;;24/03/1998;Student;CITY01;12/15/2021
+C1234;Renée Maurice;;08/01/1999;Retail ;CITY11;07/22/2022
+C1235;Honoré Le Petitjean;Female;09/05/1974;Premium;CITY11;11/30/2022
+C1236;Tristan Briand;M;;Corporate;CITY10;05/13/2018
+C1237;Marcelle Delannoy de la Vallet;;06/10/1973;Corporate;CITY02;06/08/2024
+C1238;Isabelle Raynaud-Seguin;F;02/12/1992;Corporate;CITY02;04/17/2018
+C1239;Alphonse Mace du Raynaud;F;08/10/2004;Retail;CITY05;01/02/2023
+C1240;Sophie Vidal;F;14/08/1985;Student;CITY03;10/31/2018
+C1241;Vincent Bodin;Male;28/06/1975;Student;CITY11;08/02/2021
+C1242;Alex Le Roux Le Guillet;Female;28/10/1965;Corporate;CITY03;12/15/2019
+C1243;François Weiss-Maury;Female;22/08/2005;Premium;CITY04;07/17/2023
+C1244;Christiane de Guillou;M;17/05/1992;Corporate;CITY09;06/16/2019
+C1245;Louise Roussel;;;Student;CITY12;05/15/2023
+C1246;Henriette-Danielle Gérard;;07/11/1996;Retail;CITY06;10/31/2018
+C1247;Grégoire-Hugues Lévêque;Male;16/10/2001;Corporate;CITY09;08/04/2024
+C1248;Nicole-Lucy Lemonnier;F;30/07/1971;Retail;CITY09;09/19/2019
+C1249;Odette Chauvin;Female;09/10/1974;Premium;CITY09;03/09/2021
+C1250;Eugène Brunel;M;25/06/1982;Corporate;CITY05;11/21/2024
+C1251;Victor Maréchal;;19/05/1968;Premium;CITY10;09/24/2019
+C1252;Marianne Muller du Aubry;F;16/04/1990;Retail;CITY01;11/29/2018
+C1253;Isaac Dubois;M;29/09/1983;Student;CITY01;08/02/2023
+C1254;Andrée-Nathalie Briand;;26/12/1985;Corporate;CITY11;07/22/2022
+C1255;Anastasie Pasquier de Dos Santos;Female;;Retail;CITY07;06/07/2023
+C1256;Cécile-Susan Gomes;Male;21/04/1978;Premium;CITY12;07/31/2021
+C1257;Julie Torres-Masse;Female;09/10/1995;Corporate;CITY02;07/31/2021
+C1258;Aurélie du Didier;F;06/11/2001;Student;CITY02;07/27/2018
+C1259;Martin-Vincent Roy;Female;18/06/1994;Student;CITY03;09/03/2021
+C1260;Chantal Launay;;21/01/1988;Premium;CITY09;03/28/2023
+C1261;Simone Mahe-Dupuy;Male;06/09/1987;Retail;CITY09;02/16/2023
+C1262;Zoé Berthelot;F;20/04/1979;Retail ;CITY08;09/13/2024
+C1263;Mathilde Schmitt;Male;20/08/1985;Retail;CITY05;02/07/2022
+C1264;Laurent-Franck Jourdan;Male;;Retail;CITY04;01/24/2022
+C1265;Olivier Berger;;;Student;CITY05;12/27/2024
+C1266;Manon-Céline Gaudin;;29/08/1970;Retail;CITY06;04/03/2024
+C1267;Henriette Parent;Female;10/12/1972;Student;CITY01;06/09/2018
+C1268;Michelle Devaux;F;17/11/1989;Student;CITY09;07/27/2019
+C1269;Martin Lejeune;Female;29/07/1988;Corporate;CITY09;09/19/2023
+C1270;Dominique Léger du Bigot;;12/12/2003;Corporate;CITY01;02/17/2022
+C1271;Théodore-Luc Cohen;Female;31/10/1969;Corporate;CITY12;04/20/2018
+C1272;Margaud Gimenez;;30/07/2002;Premium;CITY10;05/22/2023
+C1273;Louis du Da Costa;F;09/02/1994; Premium;CITY12;03/27/2019
+C1274;Josette du Bourgeois;F;12/09/1961;Student;CITY12;04/15/2020
+C1275;Grégoire-Alexandre Rémy;Male;07/01/2005;Student;CITY12;09/13/2018
+C1276;Marcel Robert;F;08/08/1978;Student;CITY06;12/11/2019
+C1277;Alexandrie Bouvet;Male;17/09/1990;Corporate;CITY04;10/06/2020
+C1278;Amélie de la Boulanger;Female;12/10/1986;Corporate;CITY12;04/29/2020
+C1279;Grégoire Perret;Male;10/06/1988;Corporate;CITY10;02/03/2024
+C1280;Thibaut Charpentier-Petitjean;Male;25/05/1995;Premium;CITY05;11/20/2018
+C1281;Patrick Guillou;Female;08/09/1999;Student;CITY09;01/15/2021
+C1282;Robert Mace du Lemaire;;14/05/1984;Premium;CITY11;12/16/2023
+C1283;Laurent Ferrand;F;;Student;CITY08;02/16/2019
+C1284;Nicolas Auger;F;18/06/1960;Premium;CITY08;05/10/2023
+C1285;Gérard Garcia;F;08/10/1985;Retail;CITY02;06/09/2024
+C1286;Dorothée Nguyen;F;07/05/1963;Premium;CITY03;05/29/2018
+C1287;Adélaïde Maréchal;Male;10/06/2004;Corporate;CITY01;05/07/2021
+C1288;Roger Chartier;;17/08/1969;Corporate;CITY11;02/04/2024
+C1289;Isaac Pineau Le Thierry;;23/04/2004;Premium;CITY08;01/22/2021
+C1290;Grégoire Le Collet;F;08/02/1970;Student;CITY12;02/02/2020
+C1291;Adrien Pons;M;30/03/1990;Premium;CITY11;07/19/2022
+C1292;Yves David;Male;02/06/1989;Retail;CITY03;05/10/2023
+C1293;Arnaude de la Blanc;Female;;Student;CITY05;09/12/2021
+C1294;Thomas Imbert;Female;09/01/1961;Corporate;CITY01;04/30/2019
+C1295;Rémy du Weber;Male;11/07/1987;Corporate;CITY11;04/23/2021
+C1296;Margot Breton;Female;24/10/1979;Premium;CITY08;10/17/2024
+C1297;Thérèse Ferrand;Female;22/04/1997;Student;CITY11;06/13/2020
+C1298;Roland Bouvier-Joseph;F;06/05/1967;Corporate ;CITY10;04/05/2019
+C1299;Charles Perez;M;07/05/2005;Premium;CITY09;12/15/2022
+C1300;Jean-Tristan Faure;M;05/06/1978;STUDENT;CITY09;12/30/2022
+C1301;Alexandria-Isabelle Renard;M;05/09/2000;Student;CITY01;04/07/2024
+C1302;Alain Guyot;Male;25/08/1987;Student;CITY01;06/11/2020
+C1303;Augustin Le Joly;;;Corporate;CITY09;09/04/2018
+C1304;Thérèse Maurice;M;;Student;CITY03;09/18/2022
+C1305;Laurent Vallée;Female;25/04/1994;Student;CITY11;01/18/2024
+C1306;Vincent-Théophile Blondel;F;14/03/1991;Student;CITY12;07/01/2020
+C1307;Maggie Fouquet;M;14/01/1962;Student;CITY09;10/04/2022
+C1308;Laure Lecoq;;10/01/1994;Premium;CITY03;02/03/2021
+C1309;Aimée-Anouk Blin;F;;Student;CITY01;09/12/2020
+C1310;Grégoire-Yves Rousset;F;13/01/1966;Retail;CITY11;07/19/2018
+C1311;Eugène de Collet;F;20/12/1963;Premium;CITY01;07/28/2019
+C1312;Alain Rocher;;13/12/1985;Corporate;CITY11;08/06/2021
+C1313;Roger Ferrand;F;27/01/1987;Premium;CITY05;09/07/2018
+C1314;Robert du Maillard;;17/09/1975;Student;CITY01;11/11/2021
+C1315;Anne Jourdan;Male;05/08/1988;Student;CITY07;01/24/2020
+C1316;Alfred Guillaume;;25/06/2002;Premium;CITY12;08/15/2019
+C1317;Corinne Rémy;Male;03/03/1965;Student;CITY03;05/10/2022
+C1318;Susanne Martins de la Auger;F;16/11/1982;Retail;CITY06;01/14/2019
+C1319;Paul Marques;;;Student;CITY10;06/11/2018
+C1320;Capucine Lopez-Barre;M;17/11/1976;Premium;CITY06;05/26/2021
+C1321;Nath de Moreau;M;01/01/1979;Retail;CITY08;09/20/2020
+C1322;Martin de la Perret;;07/05/1978;Premium;CITY05;04/09/2022
+C1323;Thierry-René Charrier;Male;25/03/1992;Corporate;CITY08;03/24/2023
+C1324;Adrienne Jean;M;13/02/2002;Corporate;CITY06;07/05/2021
+C1325;Alexandre Marques-Sanchez;Male;07/02/1964;Premium;CITY01;12/04/2020
+C1326;Charlotte Morel;;18/06/1997;Premium;CITY07;05/22/2024
+C1327;Émile de la Simon;F;17/10/2004;Corporate;CITY08;07/03/2023
+C1328;Véronique Jourdan-Merle;Male;03/02/1975;Corporate;CITY12;02/17/2024
+C1329;Martin Guillou;Male;05/07/1976;Retail;CITY02;07/18/2018
+C1330;Dorothée Dupuis;M;30/12/1996;Premium ;CITY03;02/07/2018
+C1331;Eugène Tessier;F;15/05/2005;Retail;CITY11;11/30/2024
+C1332;Lucas de Guillou;Male;; Student;CITY09;01/30/2021
+C1333;Philippe Voisin;;;Student;CITY03;03/15/2019
+C1334;Yves Pottier;M;11/05/1973;Corporate;CITY05;06/14/2022
+C1335;Valérie Albert-Menard;M;20/06/1993;Student;CITY12;07/14/2020
+C1336;Susanne Morel;Female;26/03/1967;RETAIL;CITY07;03/25/2022
+C1337;Philippine de Le Roux;;;Retail;CITY02;08/10/2023
+C1338;William Rodriguez;Male;20/09/1989;Retail;CITY01;07/30/2020
+C1339;Marie Guérin-Besson;F;29/08/2002;Retail;CITY05;02/03/2024
+C1340;Laurent Seguin;;14/12/1962; Corporate;CITY04;08/01/2024
+C1341;Grégoire Regnier;F;25/09/1995;Corporate;CITY04;05/10/2024
+C1342;Agnès Legros;Male;05/10/1989;Premium;CITY12;11/18/2018
+C1343;Pénélope-Joséphine Martin;;;Student;CITY02;10/27/2021
+C1344;Marcelle Moreno-Lecoq;;04/08/1995; Corporate;CITY05;01/20/2023
+C1345;Monique Daniel;Male;19/06/1980;Student;CITY11;07/27/2024
+C1346;Alphonse David;Male;09/09/1967;Corporate;CITY12;10/29/2018
+C1347;William de la Barbe;M;15/01/1984;Premium;CITY06;01/17/2022
+C1348;Alphonse Monnier;M;;Corporate;CITY05;02/23/2019
+C1349;Sébastien Delahaye;F;31/10/1967;Student;CITY09;07/30/2022
