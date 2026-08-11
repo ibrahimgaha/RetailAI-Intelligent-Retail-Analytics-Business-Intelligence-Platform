@@ -1,0 +1,173 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Main App */
+html, body, [class*="css"]{
+    font-family: 'Inter', sans-serif;
+}
+
+/* Background */
+.stApp{
+    background:#0F172A;
+}
+
+/* Hide Streamlit default menu/footer/header */
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid rgba(255,255,255,.08);
+}
+
+/* Buttons */
+.stButton>button{
+    background:#2563EB;
+    color:white;
+    border-radius:12px;
+    border:none;
+    padding:.75rem 1rem;
+    font-weight:600;
+    transition:.3s;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+}
+
+/* Inputs */
+.stSelectbox div[data-baseweb="select"],
+.stNumberInput input{
+    border-radius:12px !important;
+}
+
+/* Cards */
+.card{
+    background:#1E293B;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
+}
+
+.hero{
+
+padding:70px;
+
+border-radius:28px;
+
+background:linear-gradient(135deg,#1E293B,#0F172A);
+
+border:1px solid rgba(255,255,255,.08);
+
+margin-bottom:40px;
+
+}
+
+
+.hero-title{
+
+font-size:58px;
+
+font-weight:700;
+
+color:white;
+
+}
+
+
+.hero-subtitle{
+
+font-size:26px;
+
+margin-top:10px;
+
+color:#60A5FA;
+
+font-weight:600;
+
+}
+
+
+.hero-description{
+
+margin-top:30px;
+
+font-size:20px;
+
+color:#CBD5E1;
+
+line-height:1.8;
+
+max-width:850px;
+
+}
+
+.feature-card{
+
+background:#1E293B;
+
+padding:30px;
+
+border-radius:22px;
+
+height:250px;
+
+transition:.35s;
+
+border:1px solid rgba(255,255,255,.06);
+
+}
+
+
+.feature-card:hover{
+
+transform:translateY(-8px);
+
+border:1px solid #2563EB;
+
+box-shadow:0 15px 45px rgba(37,99,235,.25);
+
+}
+
+
+.feature-icon{
+
+font-size:45px;
+
+}
+
+
+.feature-title{
+
+margin-top:20px;
+
+font-size:23px;
+
+font-weight:600;
+
+color:white;
+
+}
+
+
+.feature-text{
+
+margin-top:15px;
+
+font-size:17px;
+
+color:#CBD5E1;
+
+line-height:1.7;
+
+}
